@@ -1,0 +1,27 @@
+nav.main-nav{
+  background-color: $silver;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  .main-menu{
+    width: 1000px;
+    .logo-site{
+      display: inline-flex;
+      justify-content: center;
+      img{
+        width: 65px;
+        height: 65px;
+      }
+      span{
+        margin-left: 10px;
+      }
+    }
+    ul{
+      li.menu-active{
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: underline;
+      }
+    }
+  }
+}

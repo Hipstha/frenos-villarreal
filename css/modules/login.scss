@@ -1,0 +1,43 @@
+.form-login{
+  display: flex;
+  justify-content: center;
+  .form-content{
+    margin-top: 10rem;
+    .logo-content{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 3rem;
+      .img-form{
+        display: flex;
+        align-items: center;
+        .text{
+          color: $black;
+          display: inline-block;
+          font-size: 4rem;
+          font-weight: 600;
+        }
+        .logo-frenos{
+          .img{
+            img{
+              width: 90px;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+    .enter-data{
+      form{
+        .form-user, .form-pass{
+          input, label{
+            padding-left: 1rem;
+          }
+        }
+        .submit-form{
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

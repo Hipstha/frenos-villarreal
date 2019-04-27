@@ -1,0 +1,19 @@
+body{
+  background-color:$solitude;
+  font-family: $serif;
+  .body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .body-content{
+      display: flex;
+      width: 1000px;
+      .client-prod{
+        width: 695px;
+      }
+      .menu-right{
+        width: 295px;
+      }
+    }
+  }
+}

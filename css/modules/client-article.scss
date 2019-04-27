@@ -1,0 +1,87 @@
+.body{
+  .body-content{
+    .orders{
+          width: 695px;
+      .client-prod{
+        margin-bottom: 10px;
+        background-color: $white;
+        border: 1px solid $howkes-blue;
+        border-radius: 10px;
+        margin-right: 5px;
+          .client-board-container{
+            padding: 0 10px 0 10px;
+            .head-info{
+              display: flex;
+              .prod-image{
+                img{
+                  width: 20rem;
+                }
+              }
+              .client-info{
+                display: block;
+                margin-left: 2rem;
+                .service{
+                  p{
+                    font-family: sans-serif;
+                    font-size: 20px;
+                  }
+                }
+                .client-name{
+                  p{
+                    font-family: sans-serif;
+                    font-size: 20px;
+                  }
+                }
+              }
+            }
+            .client-footer{
+              display: flex;
+              justify-content: space-between;
+              .body-info{
+                width: 500px;
+                .service-notes{
+                  .notes-head{
+                    p{
+                      font-family: sans-serif;
+                      font-size: 18px;
+                      border-bottom: 1px solid $howkes-blue;
+                    }
+                  }
+                  .notes{
+                    p{
+                      font-family: sans-serif;
+                      font-size: 16px;
+                      border-bottom: 1px solid $howkes-blue;
+                    }
+                  }
+                  .service-status{
+                    p{
+                      font-family: sans-serif;
+                      font-size: 18px;
+                    }
+                  }
+                }
+              }
+              .body-options{
+                .modify-button{
+                  display: flex;
+                  text-align: center;
+                  margin-bottom: 10px;
+                  .text{
+                    margin-left: 10px;
+                  }
+                }
+                .delete-button{
+                  display: flex;
+                  text-align: center;
+                  .text{
+                    margin-left: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+    }
+  }
+}
